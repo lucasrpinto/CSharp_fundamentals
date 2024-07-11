@@ -43,7 +43,7 @@ namespace HelloWorld;
     }
 }*/
 
-class Texto
+/*class Texto
 {
     static void Main ()
     {
@@ -52,5 +52,15 @@ class Texto
         texto.operacaoTexto ();
 
 
+    }
+}*/
+
+class dataHora
+{
+    static void Main()
+    {
+        DiaHora diaHora = new DiaHora();
+
+        diaHora.dataHora();
     }
 }

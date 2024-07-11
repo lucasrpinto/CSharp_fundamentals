@@ -1,4 +1,6 @@
-﻿namespace HelloWorld.Type;
+﻿using System.Text;
+
+namespace HelloWorld.Type;
 
 class textos
 {
@@ -63,9 +65,25 @@ class textos
          // $ usado na String para colocar valores que não são String
         string paragrafo2 = $"A primeira frase. {7} {caminho} segunda frase";
 
+         // Forma usada para concatenar Strings com variaveis
+        StringBuilder stringBuilder = new StringBuilder();
+
+        stringBuilder.Append(paragrafo);
+        stringBuilder.Append(paragrafo2);
+
+        string restultado = stringBuilder.ToString();
+
+         // Fixar string e definir paramêtros para ela
+        string texto = "O usuario {0} gosta do número {1}";
+        string resultado2 = string.Format(texto, "Lucas", 7);
+
+        Console.WriteLine(resultado2);
+
+        Console.WriteLine(restultado);
+
         Console.WriteLine(paragrafo);
         Console.WriteLine(caminho);
-
+         
         Console.WriteLine(paragrafo2);
     }
 }
