@@ -1,4 +1,6 @@
-﻿using HelloWorld.Type;
+﻿using HelloWorld.Coletion;
+using HelloWorld.OtherType;
+using HelloWorld.Type;
 
 namespace HelloWorld;
 
@@ -42,7 +44,7 @@ namespace HelloWorld;
         bolTrueOrFalse.booleano();
     }
 }*/
-
+ 
 /*class Texto
 {
     static void Main ()
@@ -55,12 +57,69 @@ namespace HelloWorld;
     }
 }*/
 
-class dataHora
+/*class dataHora
 {
     static void Main()
     {
         DiaHora diaHora = new DiaHora();
 
         diaHora.dataHora();
+    }
+}*/
+
+/*class TypeEnum
+{
+    static void Main()
+    {
+        TypeEnums tipoEnum = new TypeEnums();
+
+        tipoEnum.TypeEnum();
+
+    }
+}*/
+
+/*class TypeVariable
+{
+    static void Main()
+    {
+        TypeVar tipoVar = new TypeVar();
+        tipoVar.typeVar();
+    }
+}*/
+
+/*class coletionsArray
+{
+    static void Main()
+    {
+        Arrays coletionArrays = new Arrays();
+        coletionArrays.ColetionArrays();
+
+    }
+}*/
+
+/*class coletionListas
+{
+    static void Main()
+    {
+        Listas listas = new Listas();
+        listas.coletionLista();
+    }
+}*/
+
+/*class coletionDicionario
+{
+    static void Main()
+    {
+        Dicionario dicionario = new Dicionario();
+        dicionario.coletionDictionary();
+    }
+}*/
+
+class ColetionHash
+{
+    static void Main()
+    {
+        ColetionHashSet coletion = new ColetionHashSet();
+        coletion.coletionSet();
     }
 }
