@@ -1,28 +1,39 @@
 ﻿using HelloWorld.Coletion;
+using HelloWorld.Funcoes;
 using HelloWorld.OtherType;
 using HelloWorld.Type;
 
 namespace HelloWorld;
 
-/*class Program
+class Program
 {
     static void Main()
-    {   
-        // Function Car
-        Carro meuCarro = new Carro();
+    {
+        int numero = 10;
 
-        meuCarro.Ligar();
+        var carro = new Carro()
+        {
+            Modelo = "Porsche",
+            LancadoEm = new DateOnly(2021, 01, 01),
+            Cor = Cor.Azul
 
-        meuCarro.Desligar();
+        };
 
+        carro.NomeDoModelo();
 
-        // Importando uma Função Private dentro de uma internal
-        meuCarro.Teste2();
-        
+        Console.WriteLine("Oi");
     }
-}
-*/
 
+   /* static void Main()
+    {
+        var resultado = OperacoesMatematicas.Adicionar(1, 2);
+
+        Console.WriteLine(resultado);   
+    }*/
+}
+
+
+             // Type
 /*class Number
 {
     static void Main()
@@ -67,6 +78,7 @@ namespace HelloWorld;
     }
 }*/
 
+             // OtherType
 /*class TypeEnum
 {
     static void Main()
@@ -87,6 +99,7 @@ namespace HelloWorld;
     }
 }*/
 
+             // Coletion
 /*class coletionsArray
 {
     static void Main()
@@ -115,11 +128,30 @@ namespace HelloWorld;
     }
 }*/
 
-class ColetionHash
+/*class ColetionHash
 {
     static void Main()
     {
         ColetionHashSet coletion = new ColetionHashSet();
         coletion.coletionSet();
     }
-}
+}*/
+
+             // Funções
+/*class functionMetod
+{
+    static void Main()
+    {
+        var matematica = new Funcao();
+
+        var resultado = matematica.Adicionar(7, 1);
+
+        Console.WriteLine(resultado.resultadoDaAdicao);
+        Console.WriteLine(resultado.autor);
+
+
+        var soma = new Funcao();
+
+        soma.Teste(valor1: 2, valor2: 1);
+    }
+}*/
