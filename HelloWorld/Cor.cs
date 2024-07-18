@@ -4,5 +4,6 @@ public enum Cor
 {
     Vermelho,
     Azul,
-    Amarelo
+    Amarelo,
+    Roxo
 }

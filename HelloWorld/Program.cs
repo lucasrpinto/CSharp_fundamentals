@@ -1,11 +1,13 @@
 ﻿using HelloWorld.Coletion;
+using HelloWorld.Condicionais;
 using HelloWorld.Funcoes;
+using HelloWorld.Looping;
 using HelloWorld.OtherType;
 using HelloWorld.Type;
 
 namespace HelloWorld;
 
-class Program
+/*class Program
 {
     static void Main()
     {
@@ -29,11 +31,11 @@ class Program
         var resultado = OperacoesMatematicas.Adicionar(1, 2);
 
         Console.WriteLine(resultado);   
-    }*/
-}
+    }
+}*/
 
 
-             // Type
+// Type
 /*class Number
 {
     static void Main()
@@ -55,7 +57,7 @@ class Program
         bolTrueOrFalse.booleano();
     }
 }*/
- 
+
 /*class Texto
 {
     static void Main ()
@@ -78,7 +80,7 @@ class Program
     }
 }*/
 
-             // OtherType
+// OtherType
 /*class TypeEnum
 {
     static void Main()
@@ -99,7 +101,7 @@ class Program
     }
 }*/
 
-             // Coletion
+// Coletion
 /*class coletionsArray
 {
     static void Main()
@@ -137,7 +139,7 @@ class Program
     }
 }*/
 
-             // Funções
+// Funções
 /*class functionMetod
 {
     static void Main()
@@ -155,3 +157,34 @@ class Program
         soma.Teste(valor1: 2, valor2: 1);
     }
 }*/
+
+// Condicionais
+
+/*class condTypeIf
+{
+    static void Main()
+    {
+        condIf condIf = new condIf();
+        condIf.typeIf();
+    }
+} */
+
+/*class condTypeSwitch
+{
+    static void Main()
+    {
+        condSwitch condSwitch = new condSwitch();
+        condSwitch.switchCond();
+    }
+}*/
+
+
+// Looping
+class tipoLooping
+{
+    static void Main()
+    {
+        typeLooping typeLooping = new typeLooping();
+        typeLooping.loopingType();
+    }
+}
