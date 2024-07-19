@@ -78,7 +78,7 @@ Este repositório contém os fundamentos básicos de C# como tipos, funções, c
     }*/
     ```
 
-    7. Em seguide vá para outra class e faça o mesmo processo
+7. Em seguide vá para outra class e faça o mesmo processo
 
 ## Autor
 
