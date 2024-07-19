@@ -180,11 +180,22 @@ namespace HelloWorld;
 
 
 // Looping
-class tipoLooping
+/*class tipoLooping
 {
     static void Main()
     {
         typeLooping typeLooping = new typeLooping();
         typeLooping.loopingType();
+    }
+}*/
+
+class whileLooping
+{
+    static void Main()
+    {
+        typeWhile typeWhile = new typeWhile();
+        typeWhile.loopingWhile();
+
+        typeWhile.Teste(5);
     }
 }
